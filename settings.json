@@ -1,12 +1,12 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "Staff",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "KushtrimiSMP.aternos.me",
+    "ip": "kushtrimismp.aternos.me",
     "port": 62688,
     "version": "1.21.1"
   },
@@ -31,7 +31,7 @@
       "repeat-delay": 500,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Slobos!",
+        "Subscribe to Flav1um!",
         "I like to play Minecraft!"
       ]
     },
