@@ -6,9 +6,10 @@
     "type": "offline"
   },
   "server": {
-    "ip": "KushtrimiSMP.aternos.me",
-    "port": 62688,
-    "version": "1.21.1"
+    "ip": "kushtrimismp.play.hosting",
+    "port": 19537,
+    "version": "",
+    "try-creative": false
   },
   "position": {
     "enabled": true,
@@ -19,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Slobos"
+      "password": "chalol78"
     },
     "anti-afk": {
       "enabled": true,
@@ -28,22 +29,19 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Flav1um!",
-        "I like to play Minecraft!"
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!",
+        "I'm just a bot keeping this server alive",
+        "I'm just a bot keeping this server alive"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
-    "periodic-rejoin": {
-      "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
-    }
+    "max-reconnect-delay": 120000
   },
   "movement": {
     "enabled": true,
@@ -64,7 +62,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": true,
+    "beds": false,
     "chat": true,
     "console-commands": true
   },
@@ -73,12 +71,12 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
-    "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "enabled": false,
+    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
       "disconnect": true,
